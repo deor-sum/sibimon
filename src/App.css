@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+.carousel-caption {
+  bottom: 40%;
+}
+.carousel-item {
+  height: 88vh;
+}
+.carousel-item > img {
+  height: 100%;
+  object-fit: cover;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

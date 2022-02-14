@@ -29,6 +29,42 @@
   background-color: rgb(0, 8, 70);
 }
 
+.register-card {
+  transition: transform 200ms ease-in-out;
+}
+
+.register-card:hover {
+  border-bottom: 6px solid blue;
+  transform: scale(1.05);
+}
+
+.register-card:hover > .card-icon {
+  background-color: blue;
+}
+
+.register-card:hover .react-icons {
+  color: white;
+}
+.card-icon {
+  height: 8em;
+  width: 8em;
+  border-radius: 50%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  transition: background-color 200ms ease-in-out;
+}
+.react-icons {
+  width: 5em;
+  height: 5em;
+  vertical-align: middle;
+  color: blue;
+  transition: color 200ms ease-in-out;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

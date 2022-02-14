@@ -13,7 +13,7 @@ const NavbarMenu = () => {
         className="py-4"
       >
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/">
             <img
               src={Logo}
               width="auto"
@@ -28,7 +28,7 @@ const NavbarMenu = () => {
             className="justify-content-end"
           >
             <Nav>
-              <Nav.Link href="#deets">
+              <Nav.Link href="/">
                 <FaUser /> Login / Register
               </Nav.Link>
             </Nav>

@@ -21,4 +21,22 @@ const TeamList = [
   },
 ];
 
-export { TeamList };
+const Banner = [
+  {
+    alt: "Banner 1",
+    image: "banner1.jpg",
+    delay: 200,
+  },
+  {
+    alt: "Banner 2",
+    image: "IMG-GROUP.jpg",
+    delay: 400,
+  },
+  {
+    alt: "Banner 3",
+    image: "banner1.jpg",
+    delay: 600,
+  },
+];
+
+export { TeamList, Banner };

@@ -7,6 +7,7 @@
   pointer-events: none;
 }
 
+/* Hero Section*/
 .slider-overlay {
   background-color: rgba(0, 0, 0, 0.4);
   width: 120vw;
@@ -27,6 +28,7 @@
   object-fit: cover;
 }
 
+/* Team Section */
 .team-card {
   transition: transform 200ms ease-in-out;
 }
@@ -38,6 +40,7 @@
   background-color: rgb(0, 8, 70);
 }
 
+/*Register Section */
 .register-card {
   transition: transform 200ms ease-in-out;
 }
@@ -54,6 +57,7 @@
 .register-card:hover .react-icons {
   color: white;
 }
+
 .card-icon {
   height: 8em;
   width: 8em;
@@ -75,6 +79,26 @@
   transition: color 200ms ease-in-out;
 }
 
+/* Accordion Faq */
+.accordion-item {
+  border: unset;
+  padding: 0.5rem 0;
+}
+.accordion-button {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(0, 8, 70);
+  border-radius: 0.5rem;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(0, 8, 70);
+}
+
+.accordion-button::after {
+  filter: brightness(0) invert(1);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

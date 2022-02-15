@@ -8,9 +8,9 @@ const RegisterCard = ({ icon, title, desc, delay }) => {
 
   return (
     <>
-      <Col>
+      <Col md={4}>
         <Zoom delay={delay}>
-          <Card className="mx-4 register-card">
+          <Card className="mx-4 mb-4 register-card">
             <div className="card-icon mx-auto">
               <IconContext.Provider value={{ className: "react-icons" }}>
                 {IconMap[icon]}

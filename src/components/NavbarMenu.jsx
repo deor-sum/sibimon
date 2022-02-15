@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, Image } from "react-bootstrap";
 import Logo from "./../assets/logoBimon.png";
 import { FaUser } from "react-icons/fa";
 const NavbarMenu = () => {
@@ -14,7 +14,7 @@ const NavbarMenu = () => {
       >
         <Container>
           <Navbar.Brand href="/">
-            <img
+            <Image
               src={Logo}
               width="auto"
               height="30"

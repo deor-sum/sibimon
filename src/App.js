@@ -5,6 +5,7 @@ import NavbarMenu from "./components/NavbarMenu";
 import Description from "./components/Description.jsx";
 import Teams from "./components/Teams.jsx";
 import Register from "./components/Register.jsx";
+import Faq from "./components/Faq";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Description />
         <Teams />
         <Register />
+        <Faq />
       </Container>
     </div>
   );

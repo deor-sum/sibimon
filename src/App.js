@@ -6,6 +6,7 @@ import Description from "./components/Description.jsx";
 import Teams from "./components/Teams.jsx";
 import Register from "./components/Register.jsx";
 import Faq from "./components/Faq";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Teams />
         <Register />
         <Faq />
+        <Footer />
       </Container>
     </div>
   );

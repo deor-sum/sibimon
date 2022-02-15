@@ -99,6 +99,24 @@
 .accordion-button::after {
   filter: brightness(0) invert(1);
 }
+
+/*Footer*/
+.hr {
+  border-bottom: 0.2rem solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-icons {
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+  color: rgb(158, 160, 166);
+  transition: color 200ms ease-in-out;
+}
+
+.footer-icons:hover {
+  color: whitesmoke;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

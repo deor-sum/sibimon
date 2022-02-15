@@ -6,11 +6,11 @@ import Kontak from "./Kontak";
 const Footer = () => {
   return (
     <>
-      <Row className="g-0 bg-dark bg-gradient">
-        <Col md={3} className="">
+      <Row className="g-0 px-md-5 bg-dark bg-gradient">
+        <Col md={3}>
           <Kontak title="Kontak" />
         </Col>
-        <Col md={3} className="px-xs-4">
+        <Col md={3}>
           <Kontak
             title="Luh Tu Selpi Wahyuni,S.Pd"
             contact="( 0812-3743-0478 )"

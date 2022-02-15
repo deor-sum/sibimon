@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Navbar, Container, Nav, Image } from "react-bootstrap";
 import Logo from "./../assets/logoBimon.png";
 import { FaUser } from "react-icons/fa";
+import FormLogin from "./FormLogin";
+
 const NavbarMenu = () => {
+  const [showLogin, setShowLogin] = useState(false);
+
+  const showLoginForm = (e) => {
+    e.preventDefault();
+    setShowLogin(!showLogin);
+  };
+
   return (
     <>
       <Navbar
@@ -28,13 +37,14 @@ const NavbarMenu = () => {
             className="justify-content-end"
           >
             <Nav>
-              <Nav.Link href="/">
+              <Nav.Link href="/" onClick={showLoginForm}>
                 <FaUser /> Login / Register
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      {showLogin && <FormLogin close={showLoginForm} />}
     </>
   );
 };

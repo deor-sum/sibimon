@@ -1,12 +1,41 @@
-.App {
-  text-align: center;
+/*login Form */
+.login-form {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  scroll-behavior: unset;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999999;
+}
+.closeIcon {
+  height: 2rem;
+  width: 2rem;
+  color: grey;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-form .closeBtn {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  background-color: rgb(0, 8, 70);
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
+.closeBtn:hover {
+  background-color: rgb(17, 24, 78);
+}
+
+.closeBtn:hover > .closeIcon {
+  color: whitesmoke;
+}
 /* Hero Section*/
 .slider-overlay {
   background-color: rgba(0, 0, 0, 0.4);

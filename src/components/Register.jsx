@@ -11,19 +11,19 @@ const Register = () => {
           title="Daftar"
           desc="Lengkapi data pada form pendaftaran untuk melakukan pendaftaran."
           icon="0"
-          delay={200}
+          delay={100}
         />
         <RegisterCard
           title="Pembayaran"
           desc="Setelah berhasil melakukan pendaftaran lakukan pembayaran"
           icon="1"
-          delay={400}
+          delay={200}
         />
         <RegisterCard
           title="Ikut Kursus"
           desc="Konfirmasi pembayaran dan ikuti semua kursus yang tersedia"
           icon="2"
-          delay={600}
+          delay={300}
         />
       </Row>
     </>

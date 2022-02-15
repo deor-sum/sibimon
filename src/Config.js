@@ -1,26 +1,28 @@
+//Team Setting
 const TeamList = [
   {
     name: "Dr. I Gede Margunayasa, S.Pd, M.Pd",
     image: "guru1.jpg",
-    delay: 200,
+    delay: 100,
   },
   {
     name: "Luh Eka Ratna Widiari, S.Pd",
     image: "guru4.jpg",
-    delay: 400,
+    delay: 200,
   },
   {
     name: "Luh Sri Surya Wisma Jayanti, S.Pd, M.Pd",
     image: "guru3.jpg",
-    delay: 600,
+    delay: 300,
   },
   {
     name: "Luh Tu Selpi Wahyuni, S.Pd",
     image: "guru2.jpg",
-    delay: 800,
+    delay: 400,
   },
 ];
 
+// Benner Setting
 const Banner = [
   {
     alt: "Banner 1",
@@ -39,6 +41,7 @@ const Banner = [
   },
 ];
 
+//Faq Setting
 const FaqData = [
   {
     id: "0",
@@ -62,4 +65,15 @@ const FaqData = [
   },
 ];
 
-export { TeamList, Banner, FaqData };
+//Image Setting
+const SliderImage = [
+  "1.jpeg",
+  "2.jpeg",
+  "3.jpeg",
+  "4.jpeg",
+  "5.jpeg",
+  "6.jpeg",
+  "7.jpeg",
+];
+
+export { TeamList, Banner, FaqData, SliderImage };

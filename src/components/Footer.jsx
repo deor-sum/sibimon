@@ -29,12 +29,20 @@ const Footer = () => {
         <div className="hr"></div>
         <Col xs={12} md={12}>
           <Nav className="justify-content-center py-3">
-            <NavLink href="/">
+            <NavLink
+              href="https://facebook.com/profile.php?id=100069790567939"
+              target="_blank"
+              noreferrer
+            >
               <IconContext.Provider value={{ className: "footer-icons" }}>
                 <FaInstagram />
               </IconContext.Provider>
             </NavLink>
-            <NavLink href="/">
+            <NavLink
+              href="https://instagram.com/sibimon16"
+              target="_blank"
+              noreferrer
+            >
               <IconContext.Provider value={{ className: "footer-icons" }}>
                 <FaFacebook />
               </IconContext.Provider>

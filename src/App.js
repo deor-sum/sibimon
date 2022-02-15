@@ -1,4 +1,6 @@
 import "./App.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Container } from "react-bootstrap";
 import HeroSlider from "./components/HeroSlider";
 import NavbarMenu from "./components/NavbarMenu";
@@ -7,6 +9,7 @@ import Teams from "./components/Teams.jsx";
 import Register from "./components/Register.jsx";
 import Faq from "./components/Faq";
 import Footer from "./components/Footer";
+import Testimoni from "./components/Testimoni";
 
 const App = () => {
   return (
@@ -18,6 +21,7 @@ const App = () => {
         <Teams />
         <Register />
         <Faq />
+        <Testimoni />
         <Footer />
       </Container>
     </div>

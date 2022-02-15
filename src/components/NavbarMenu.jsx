@@ -7,8 +7,18 @@ import FormLogin from "./FormLogin";
 const NavbarMenu = () => {
   const [showLogin, setShowLogin] = useState(false);
 
+  const setHidden = () => {
+    console.log(document.body.style.overflow);
+    if (document.body.style.overflow !== "hidden") {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "scroll";
+    }
+  };
+
   const showLoginForm = (e) => {
     e.preventDefault();
+    setHidden();
     setShowLogin(!showLogin);
   };
 

@@ -48,7 +48,7 @@ const Footer = () => {
               </IconContext.Provider>
             </NavLink>
           </Nav>
-          <p className="text-white">
+          <p className="text-muted text-center">
             Copyright © 2021 Sibimon Singaraja. All RIghts Reserved.
           </p>
         </Col>

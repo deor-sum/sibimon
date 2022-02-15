@@ -2,12 +2,13 @@
 .login-form {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
-  scroll-behavior: unset;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999999;
+  overflow-y: hidden;
+  scrollbar-width: none;
 }
 .closeIcon {
   height: 2rem;
